@@ -33,8 +33,7 @@ body {
     align-items: center;
     padding: 50px;
     position: relative;
-    height: 100vh;
-    height: 100dvh; /* ეკრანის სიმაღლე - ჰედერისთვის საჭირო სივრცე */
+    min-height: 100vh;
 }
 .product-info {
     z-index: 1; /* იმისთვის, რომ ტექსტი იყოს სურათის თავზე */
